@@ -28,7 +28,7 @@ from jupyter_dash import JupyterDash
 import dash_html_components as html
 
 #Ajouter interview_statut à dataTB pour les tests
-df = pd.read_excel(r'C:\Users\fajmi\Downloads\Dash\Dash\dataTB.xlsx')
+df = pd.read_excel(r'dataTB.xlsx')
 
 
 #Instantiation d'un objet Dash dans Jupyter
